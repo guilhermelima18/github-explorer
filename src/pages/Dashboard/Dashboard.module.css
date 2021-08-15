@@ -1,0 +1,90 @@
+.header {
+  width: 70%;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header img {
+  max-width: 200px;
+}
+
+.header h1 {
+  max-width: 280px;
+  font-size: 1.7rem;
+  margin: 30px 0;
+}
+
+.header form {
+  display: flex;
+  align-items: center;
+  margin: 0 0 50px 0;
+}
+
+.header form input {
+  border: 0;
+  outline: none;
+  flex: 1;
+  height: 50px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.header form button {
+  background-color: rgb(9, 165, 9);
+  color: #FFF;
+  font-weight: bold;
+  border: 0;
+  outline: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.repository {
+  width: 70%;
+  min-width: 350px;
+  margin-top: 30px;
+}
+
+.repository .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.repository .cards .cardRepository {
+  background-color: #FFF;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: 500ms;
+}
+
+.repository .cards .cardRepository:hover {
+  transform: scale(0.9);
+}
+
+.repository .cards .cardRepository img {
+  max-width: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.repository .cards .cardRepository .repositoryName {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.repository .cards .cardRepository .repositoryName span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.repository .cards .cardRepository .repositoryName p {
+  font-size: 0.9rem;
+  color: #555;
+}
