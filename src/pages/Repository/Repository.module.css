@@ -1,3 +1,81 @@
-.title {
-  color: blue;
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.header img {
+  max-width: 200px;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+}
+
+.repository {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.repository main {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.repository main img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.repository main .repositoryName {
+  flex: 1;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.repository main .repositoryName h2 {
+  font-size: 1.5rem;
+}
+
+.repository main .repositoryName span {
+  font-size: 0.9rem;
+}
+
+.repository .repositoryDescription {
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+}
+
+.content .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.content .cards .cardIssue {
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 0 0 10px gray;
+  position: relative;
+}
+
+.content .cards .cardIssue:hover {
+  top: -5px;
 }
